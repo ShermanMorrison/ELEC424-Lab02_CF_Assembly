@@ -6,6 +6,12 @@ Part 1: 8
 Q1. What are the two chips on the Bus Blaster? Which companies manufacture them? 
     What are their general purposes? What are they specifically used for on the Bus Blaster?
 
+The two chips are the FT2232H from FTDI, and the XC2C32A from XILINX. 
+
+The FT2232H is for USB to serial communication, which enables USB to JTAG on the Bus Blaster.
+
+The XC232A is the buffer for the FT2232H.
+
 Part 2: 5
 
 Q2. Take a 5 second (-ish) video of the green LED blinking. No need to (somehow) embed the video
